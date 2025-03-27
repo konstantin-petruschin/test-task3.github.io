@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Elite Estates - Your Dream Home Awaits</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <h1>Elite<span>Estates</span></h1>
+                </div>
+                <nav class="header__nav">
+                    <button class="header__menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item"><a href="#home" class="header__nav-link">Home</a></li>
+                        <li class="header__nav-item"><a href="#properties" class="header__nav-link">Properties</a></li>
+                        <li class="header__nav-item"><a href="#services" class="header__nav-link">Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__mobile-menu">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#home" class="header__nav-link">Home</a></li>
+                    <li class="header__nav-item"><a href="#properties" class="header__nav-link">Properties</a></li>
+                    <li class="header__nav-item"><a href="#services" class="header__nav-link">Services</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero__bg-image">
+                    <img src="img/promo.jpg" alt="beautiful house." width="763" height="1009" class="hero__img">
+                </div>
+                <div class="container">
+                    <div class="hero__content">
+                        <h2 class="hero__title">Elite Real Estate</h2>
+                        <p class="hero__text">Special offers:</p>
+                        <ul class="hero__offers">
+                            <li class="hero__offer-item">Save up to <span>$10,000</span></li>
+                            <li class="hero__offer-item"><span>30%</span> off premium listings</li>
+                            <li class="hero__offer-item"><span>17%</span> commission reduction</li>
+                        </ul>
+                        <a href="#properties" class="hero__button button button--primary">Order</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features" class="features">
+                <div class="features__img features__img--left">
+                    <img src="img/features-1.jpg" alt="Feature image">
+                </div>
+                <div class="container">
+                    <h2 class="section__title visually-hidden">Features</h2>
+                    <div class="features__container">
+                        <div class="features__content">
+                            <ul class="features__list">
+                                <li class="features__item">Premium locations with exclusive neighborhood access.</li>
+                                <li class="features__item">Sustainable architecture with eco-friendly materials.</li>
+                                <li class="features__item">Smart home technology with energy-efficient systems. Control your home from anywhere. Save on bills while enjoying conveniences. Integration with your favorite smart devices.</li>
+                                <li class="features__item">Personalized design service with professional support.</li>
+                            </ul>
+                            <a href="#contact" class="features__button button button--primary">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="features__img features__img--right">
+                    <img src="img/features-2.jpg" alt="Feature image">
+                </div>
+            </section>
+            <section id="contact" class="contact">
+                <div class="container">
+                    <div class="contact__wrapper">
+                        <div class="contact__content">
+                            <h2 class="contact__title">Book a&nbsp;Consultation</h2>
+                            <div class="contact__container">
+                                <div class="contact__form">
+                                    <form>
+                                        <div class="contact__form-group">
+                                            <label for="name" class="contact__label visually-hidden">Name</label>
+                                            <input type="text" id="name" name="name" required class="contact__input" placeholder="Name">
+                                        </div>
+                                        <div class="contact__form-group">
+                                            <label for="email" class="contact__label visually-hidden">Email</label>
+                                            <input type="email" id="email" name="email" required class="contact__input" placeholder="E-mail">
+                                        </div>
+                                        <div class="contact__form-group contact__form-group--checkbox">
+                                            <input type="checkbox" id="privacy" name="privacy" required class="contact__checkbox">
+                                            <label for="privacy" class="contact__checkbox-label">I accept Privacy policy</label>
+                                        </div>
+                                        <button type="submit" class="contact__button button button--primary">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__image">
+                            <img src="img/form.png" alt="Consultation image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__links">
+                    <div class="footer__top">
+                        <ul class="footer__nav-list">
+                            <li class="footer__list-item"><a href="#home" class="footer__link">Home</a></li>
+                            <li class="footer__list-item"><a href="#properties" class="footer__link">Properties</a></li>
+                            <li class="footer__list-item"><a href="#services" class="footer__link">Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__center">
+                        <a class="footer__logo-link"><p class="footer__logo-title">Elite<span>Estates</span></p></a>
+                        <div class="footer__social">
+                            <a href="#" class="footer__social-link" aria-label="Instagram">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_65_1272)">
+                                    <path d="M21.332 5.33203H10.6654C7.71985 5.33203 5.33203 7.71985 5.33203 10.6654V21.332C5.33203 24.2775 7.71985 26.6654 10.6654 26.6654H21.332C24.2775 26.6654 26.6654 24.2775 26.6654 21.332V10.6654C26.6654 7.71985 24.2775 5.33203 21.332 5.33203Z" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 20C18.2091 20 20 18.2091 20 16C20 13.7909 18.2091 12 16 12C13.7909 12 12 13.7909 12 16C12 18.2091 13.7909 20 16 20Z" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22 10V10.001" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_65_1272">
+                                    <rect width="32" height="32" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a href="#" class="footer__social-link" aria-label="TikTok ">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_65_1273)">
+                                    <path d="M12.0013 15.9987C10.9465 15.9987 9.91533 16.3115 9.03826 16.8975C8.1612 17.4836 7.47761 18.3165 7.07395 19.2911C6.67028 20.2656 6.56466 21.3379 6.77045 22.3725C6.97624 23.4071 7.48419 24.3574 8.23007 25.1033C8.97595 25.8491 9.92626 26.3571 10.9608 26.5629C11.9954 26.7687 13.0677 26.6631 14.0423 26.2594C15.0168 25.8557 15.8498 25.1721 16.4358 24.2951C17.0218 23.418 17.3346 22.3869 17.3346 21.332V5.33203C17.3346 7.10014 18.037 8.79583 19.2873 10.0461C20.5375 11.2963 22.2332 11.9987 24.0013 11.9987" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_65_1273">
+                                    <rect width="32" height="32" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>   
+                            </a>
+                            <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_65_1274)">
+                                    <path d="M23.9987 5.33203H7.9987C6.52594 5.33203 5.33203 6.52594 5.33203 7.9987V23.9987C5.33203 25.4715 6.52594 26.6654 7.9987 26.6654H23.9987C25.4715 26.6654 26.6654 25.4715 26.6654 23.9987V7.9987C26.6654 6.52594 25.4715 5.33203 23.9987 5.33203Z" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.668 14.668V21.3346" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.668 10.668V10.6813" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M16 21.3346V14.668" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.3333 21.3346V17.3346C21.3333 16.6274 21.0524 15.9491 20.5523 15.449C20.0522 14.9489 19.3739 14.668 18.6667 14.668C17.9594 14.668 17.2811 14.9489 16.781 15.449C16.281 15.9491 16 16.6274 16 17.3346" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_65_1274">
+                                    <rect width="32" height="32" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg> 
+                            </a>
+                            <a href="#" class="footer__social-link" aria-label="Facebook">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_65_1275)">
+                                    <path d="M9.33203 13.3333V18.6667H13.332V28H18.6654V18.6667H22.6654L23.9987 13.3333H18.6654V10.6667C18.6654 10.313 18.8058 9.97391 19.0559 9.72386C19.3059 9.47381 19.6451 9.33333 19.9987 9.33333H23.9987V4H19.9987C18.2306 4 16.5349 4.70238 15.2847 5.95262C14.0344 7.20286 13.332 8.89856 13.332 10.6667V13.3333H9.33203Z" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_65_1275">
+                                    <rect width="32" height="32" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>      
+                            </a>
+                            <a href="#" class="footer__social-link" aria-label="Telegram">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_65_1276)">
+                                    <path d="M20 13.332L14.6667 18.6654L22.6667 26.6654L28 5.33203L4 14.6654L9.33333 17.332L12 25.332L16 19.9987" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_65_1276">
+                                    <rect width="32" height="32" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>  
+                            </a>
+                            <a href="#" class="footer__social-link" aria-label="YouTube">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_65_1277)">
+                                    <path d="M22.6667 6.66797H9.33333C6.38781 6.66797 4 9.05578 4 12.0013V20.0013C4 22.9468 6.38781 25.3346 9.33333 25.3346H22.6667C25.6122 25.3346 28 22.9468 28 20.0013V12.0013C28 9.05578 25.6122 6.66797 22.6667 6.66797Z" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13.332 12L19.9987 16L13.332 20V12Z" stroke="#D5C9BE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_65_1277">
+                                    <rect width="32" height="32" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </div>
+                        <a class="footer__link-order">Order</a>
+                    </div>
+                    <div class="footer__bottom">
+                        <span class="footer__copyright">&copy; 2023 Elite Estates.</span>
+                        <a class="footer__policy" href="#">Privacy policy</a>
+                        <a class="footer__policy" href="#">Terms of use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
